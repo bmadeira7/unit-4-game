@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sunny-Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--RESET CSS FILE??-->
+</head>
+
+<body>
+        <audio id="sunnyThemeSong" src="assets/audio/Its Always Sunny in Philadelphia.mp3" autoplay="autoplay" loop="false"></audio>
+
+    <!--html layout begin-->
+    
+    <div class="container">
+        
+        <div class="row row1">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <img class="castPic" src="assets/images/sunnyHeader.jpeg" alt="full-cast-sunny-philadelphia">
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row row2">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 title">
+                <p class="directions">A random number will be chosen. Click on a Sunny In Philadelphia character to find its value. Points will
+                    accumulate. Win by matching the random number with your current points. Dont exceed the random number or you will lose.</p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row row3 mt-4">
+                <div class="col-6 numDisplay">
+                    <p>Try to match this number:  <span class="numberDisplay"></span></p>
+                </div>
+                <div class="col-6 winLossDisplay">
+                    <p>Wins: <span class="winsDisplay"></span></p>
+                    <p>Losses: <span class="lossesDisplay"></span></p>
+                    
+                </div>
+            </div>
+            <div class="row row4 mt-3">
+                <div class="col-2">
+                    <img class="dennisPic" src="assets/images/dennisNightman.jpg" alt="dennisPic">
+                </div>
+                <div class="col-2">
+                    <img class="macPic" src="assets/images/macNightman.jpg" alt="macPic">
+                    
+                </div>
+                <div class="col-2">
+                    <img class="charliePic" src="assets/images/charlieNightman.jpg" alt="charliePic">
+                    
+                </div>
+                <div class="col-2">
+                    <img class="deePic" src="assets/images/deeNightman.jpg" alt="deePic">
+                    
+                </div>
+                <div class="col-2">
+                    <img class="frankPic" src="assets/images/frankNightman.jpg" alt="frankPic">
+                    
+                </div>
+            </div>
+            <div class="row row5 mt-3">
+                <div class="col-12">
+                    <p>Your current points are: <span id="currentPoints"></span></p>
+                    
+                </div>
+            </div>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+            
+        </body>
+        
+        </html>

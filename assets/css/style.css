@@ -1,0 +1,90 @@
+.container {
+    background-color: rgba(63, 66, 116, 0.74);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 5px solid black;
+}
+.castPic {
+    margin: auto;    
+    display: block;
+    border: 2px solid black;
+    height: 60px;
+    
+}
+
+.title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.433);
+    width: 300px;
+    margin-top: 10px;
+    color: aliceblue;
+    border-radius: 30px;
+}
+    
+.row3 {
+    height: 150px;
+    border: 2px solid  rgb(255, 208, 0);
+    
+}
+.numDisplay {
+    background-color: rgba(255, 255, 255, 0.671);
+    font-size: 36px;
+}
+.numberDisplay {
+    font-size: 56px;
+    
+}
+.winLossDisplay {
+    background-color: rgba(0, 0, 0, 0.548);
+    font-size: 36px;
+    color:whitesmoke;
+    
+    
+}
+.row4 {
+    justify-content: center;
+    margin-left: -81px;
+   
+   
+}
+.dennisPic {
+    width: 200px;
+    height: 200px;
+}
+.dennisPic:hover {
+    opacity: .73;
+}
+.macPic {
+    width: 200px;
+    height: 200px;
+}
+.macPic:hover {
+    opacity: .73;
+}
+.charliePic {
+    width: 200px;
+    height: 200px;
+                }
+.charliePic:hover {
+    opacity: .73;
+}
+.deePic {
+    width: 200px;
+    height: 200px;
+}
+.deePic:hover {
+    opacity: .73;
+}
+.frankPic {
+    width: 200px;
+    height: 200px;
+}
+.frankPic:hover {
+    opacity: .73;
+}
+.row5 {
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 85px;
+    color: whitesmoke;
+    border: 2px solid rgb(255, 208, 0);
+    font-size: 40px;
+}
