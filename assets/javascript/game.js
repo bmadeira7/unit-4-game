@@ -5,9 +5,7 @@ audio.volume = 0.01;
 var wins = 0;
 var losses = 0;
 
-$(".pauseButton").click(function () {
-    audio.pause;
-})
+
 
 
 var myAudio = document.getElementById("sunnyThemeSong");
