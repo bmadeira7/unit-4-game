@@ -14,20 +14,22 @@
 
 <body>
         <audio id="sunnyThemeSong" src="assets/audio/Its Always Sunny in Philadelphia.mp3" autoplay="autoplay" loop="false"></audio>
-
-    <!--html layout begin-->
-    
-    <div class="container">
+        <!--html layout begin-->
         
-        <div class="row row1">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <img class="castPic" src="assets/images/sunnyHeader.jpeg" alt="full-cast-sunny-philadelphia">
+        <div class="container">
+            
+            <div class="row row1">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <img class="castPic" src="assets/images/sunnyHeader.jpeg" alt="full-cast-sunny-philadelphia">
+                </div>
+                <div class="col-sm-2"></div>
+            </div> 
+            
+            <div class="row row2">
+                <div class="col-sm-2">
+                        <a onClick="togglePlay()"><button class="pauseButton">Click to pause music</button></a>
             </div>
-            <div class="col-sm-2"></div>
-        </div>
-        <div class="row row2">
-            <div class="col-sm-2"></div>
             <div class="col-sm-8 title">
                 <p class="directions">A random number will be chosen. Click on a Sunny In Philadelphia character to find its value. Points will
                     accumulate. Win by matching the random number with your current points. Dont exceed the random number or you will lose.</p>

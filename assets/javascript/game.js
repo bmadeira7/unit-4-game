@@ -1,15 +1,32 @@
-
+//audio related
 var audio = document.getElementById("sunnyThemeSong");
 audio.volume = 0.01;
 
 var wins = 0;
 var losses = 0;
 
-//audio pause function
-//audio.pause()
-//audio.play ?? maybe
+$(".pauseButton").click(function () {
+    audio.pause;
+})
 
 
+var myAudio = document.getElementById("sunnyThemeSong");
+var isPlaying = false;
+
+function togglePlay() {
+  if (isPlaying) {
+    myAudio.pause()
+  } else {
+    myAudio.play();
+  }
+};
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};
+//code for game begins
 var currentScore = 0;
 var dennisNumber = Math.floor(Math.random() * 12 + 1);
 var macNumber = Math.floor(Math.random() * 12 + 1);
@@ -29,37 +46,10 @@ function gameInitalize() {
     $("#currentPoints").text(currentScore);
 
 }
-
 var computerGeneratedNumber = Math.floor(Math.random() * 102 + 19);
 $(".numberDisplay").text(computerGeneratedNumber);
 
-
-
-
-
-
-
 var castNames = [".dennisPic", ".macPic", ".charliePic", ".deePic", ".frankPic"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 $(".dennisPic").click(function () {
     currentScore += dennisNumber
@@ -161,3 +151,4 @@ $(".lossesDisplay").text(losses);
 $("#currentPoints").text(currentScore);
 
 
+//very repetative, i know....
