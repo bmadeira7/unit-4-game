@@ -7,4 +7,4 @@ given a random value. When the user clicks on a picture that random value is add
 The goal of the game is to match the pre-determined number with your current score. If the user suceeds, the wins counter
 will register than win. If the user exceeds the pre-determined number, the losses counter will register that loss.
 
-![Alt text](relative/path/to/sunnyGame.png raw=true "Title")
+
